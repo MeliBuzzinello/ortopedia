@@ -1,0 +1,21 @@
+// nesting (anidados)
+h1 {
+    color: aquamarine;
+}
+
+// variables
+
+$colorP: pink;
+$colorS: violet;
+$flex: flex;
+
+h1 {
+    color: $colorP;
+    &:hover{
+        color: $colorS;
+    }
+}
+
+// partial 
+
+@import "nav";
