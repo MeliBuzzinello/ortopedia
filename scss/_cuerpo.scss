@@ -1,0 +1,42 @@
+@import "color";
+
+*{
+    color: #626161;
+}
+
+// Nosotros
+
+.nosotros_foto {
+    width: 100%;
+}
+
+.titulo {
+    font-size: 60px;
+    margin-left: 20px;
+    &:hover {
+        color: $colorTxt;
+    }
+}
+
+.parrafo_nosotros {
+    margin: 50px;
+}
+
+// Servicios
+
+.card-img-top {
+    width: 260px;
+    height: 260px;
+}
+
+// contacto
+
+.datos_contacto {
+    background-color: $colorT;
+    padding: 50px;
+    h4 { 
+    color: white;
+    line-height: revert;
+    }
+}
+

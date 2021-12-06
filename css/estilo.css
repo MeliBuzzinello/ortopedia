@@ -1,7 +1,52 @@
-h1 {
-  color: aquamarine; }
+.img_logo {
+  width: 100px;
+  margin: 20px; }
 
-h1 {
-  color: pink; }
-  h1:hover {
-    color: violet; }
+.nav-link {
+  font-weight: bold; }
+  .nav-link:hover {
+    background-color: #8ecbee; }
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+    padding-top: 30px; } }
+
+* {
+  color: #626161; }
+
+.nosotros_foto {
+  width: 100%; }
+
+.titulo {
+  font-size: 60px;
+  margin-left: 20px; }
+  .titulo:hover {
+    color: rgba(0, 0, 0, 0.5); }
+
+.parrafo_nosotros {
+  margin: 50px; }
+
+.card-img-top {
+  width: 260px;
+  height: 260px; }
+
+.datos_contacto {
+  background-color: #0306d1;
+  padding: 50px; }
+  .datos_contacto h4 {
+    color: white;
+    line-height: revert; }
+
+.footer-legales {
+  background-color: #8ecbee;
+  text-align: center;
+  padding: 20px; }
+
+.redes_ubicacion {
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  color: #8ecbee;
+  margin: 15px; }

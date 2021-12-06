@@ -1,0 +1,19 @@
+
+@import "color";
+
+.footer-legales {
+    background-color: $colorP;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes_ubicacion {
+    display: flex;
+    justify-content: center;
+   }
+
+.redes {
+    color: $colorP;
+    margin: 15px;
+}
+
