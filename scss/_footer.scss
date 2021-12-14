@@ -2,7 +2,7 @@
 @import "color";
 
 .footer-legales {
-    background-color: $colorP;
+    background-color: map-get($paleta, colorP);
     text-align: center;
     padding: 20px;
 }
@@ -13,7 +13,7 @@
    }
 
 .redes {
-    color: $colorP;
+    color: map-get($paleta, colorP);
     margin: 15px;
 }
 

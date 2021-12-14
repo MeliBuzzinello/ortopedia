@@ -14,7 +14,7 @@
     font-size: 60px;
     margin-left: 20px;
     &:hover {
-        color: $colorTxt;
+        color: map-get($paleta, colorS);
     }
 }
 
@@ -32,7 +32,7 @@
 // contacto
 
 .datos_contacto {
-    background-color: $colorT;
+    background-color: map-get($paleta, colorP);
     padding: 50px;
     h4 { 
     color: white;
@@ -40,3 +40,51 @@
     }
 }
 
+// SASS II ------ map-get
+
+$cuerpo: (
+ colore: #626161,
+ tFuente: 15px,
+ tipografia: arial,
+);
+
+.parrafo_nosotros {
+    color: map-get($cuerpo, colore);
+    font-size: map-get($cuerpo, tFuente);
+    font-family: map-get($cuerpo, tipografia);
+}
+
+.caja {
+   background-color: map-get($paleta, colorT);
+   text-align: center;
+   border: solid white 7px;
+   border-radius: 5px;
+   padding: 30px;
+   h3 {
+       color: bisque;
+   }
+   h2 {
+       color: white;
+   }
+
+}
+
+.caja-sec {
+    @extend .caja;
+    background-color: map-get($paleta, colorP)
+}
+
+.caja-ter {
+    @extend .caja;
+}
+
+@mixin btn {
+    background-color: map-get($paleta, colorS);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.boton {
+    @include btn;
+}

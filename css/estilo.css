@@ -22,7 +22,7 @@
   font-size: 60px;
   margin-left: 20px; }
   .titulo:hover {
-    color: rgba(0, 0, 0, 0.5); }
+    color: #f57a33; }
 
 .parrafo_nosotros {
   margin: 50px; }
@@ -32,11 +32,36 @@
   height: 260px; }
 
 .datos_contacto {
-  background-color: #0306d1;
+  background-color: #8ecbee;
   padding: 50px; }
   .datos_contacto h4 {
     color: white;
     line-height: revert; }
+
+.parrafo_nosotros {
+  color: #626161;
+  font-size: 15px;
+  font-family: arial; }
+
+.caja, .caja-sec, .caja-ter {
+  background-color: #03068f;
+  text-align: center;
+  border: solid white 7px;
+  border-radius: 5px;
+  padding: 30px; }
+  .caja h3, .caja-sec h3, .caja-ter h3 {
+    color: bisque; }
+  .caja h2, .caja-sec h2, .caja-ter h2 {
+    color: white; }
+
+.caja-sec {
+  background-color: #8ecbee; }
+
+.boton {
+  background-color: #f57a33;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 2px; }
 
 .footer-legales {
   background-color: #8ecbee;

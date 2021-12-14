@@ -9,7 +9,7 @@
 .nav-link {
     font-weight: bold;
     &:hover {
-        background-color: $colorP;
+        background-color: map-get($paleta, colorP);
     }
 }
 
